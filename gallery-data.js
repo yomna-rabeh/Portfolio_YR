@@ -31,7 +31,7 @@ export const designWorks = [
 ];
 
 export const modelsList = [
-    /*{
+    {
         id: 'helmet',
         title: 'Carthagenian Helmet',
         description: 'Ancient Carthaginian helmet that i designed for my End of studies project.',
@@ -62,9 +62,9 @@ export const modelsList = [
         thumbnail: 'images/ma3beeeeed.png',
         model: 'models/ma3beeeeed.glb',
         category: 'Environment'
-    },
+    },*/
     {
-        /*id: 'cross vault',
+        id: 'cross vault',
         title: 'cross vault',
         description: 'cross vault ceiling designed using blender for my end of studies project.',
         thumbnail: 'images/cross vault.png',
@@ -126,5 +126,5 @@ export const modelsList = [
         thumbnail: 'images/belvi.png',
         model: 'models/belviii.glb',
         category: 'Character'
-    }*/
+    }
 ];
