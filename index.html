@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yomna Rabeh- Designer & Game Developer</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="index-page1.css"/>
+</head>
+<body>
+    
+    <div id="particles-js"></div>
+
+    <nav class="navbar">
+        <a href="#hero"  class="logo"><img id="omglogo" src="logo_yomna_white.png" class="responsive-img"></a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#design-gallery">Design</a>
+            <a href="#three-scene">3D</a>
+            <a href="#game-gallery">Games</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <h1 class="glitch-text" data-text="YOMNA RABEH">YOMNA RABEH</h1>
+        <h3>Designer // Game Developer</h3>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <p>I build immersive digital worlds and interactive experiences. With a passion for both creative design and the logic of development, I bridge the gap between art and code to create compelling games and applications. My focus is on player engagement, intuitive design, and pushing the boundaries of what's possible on screen.</p>
+    </section>
+
+    
+    
+    <section id="design-gallery" class="section">
+        <h2 class="section-title">Design Gallery</h2>
+        <p class="section-subtitle">Posts, Logos & Creative Artworks</p>
+
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All Works</button>
+            <button class="filter-btn" data-filter="posts">Social Posts</button>
+            <button class="filter-btn" data-filter="logos">Logos</button>
+            <button class="filter-btn" data-filter="artwork">Artwork</button>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-grid" id="galleryGrid"></div>
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i class="fas fa-image"></i>
+                <p>No designs found for this category</p>
+            </div>
+        </div>
+
+        
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-content">
+                <span class="lightbox-close">&times;</span>
+                <span class="lightbox-nav lightbox-prev">&#10094;</span>
+                <img class="lightbox-image" id="lightboxImage" src="" alt="">
+                <span class="lightbox-nav lightbox-next">&#10095;</span>
+                <div class="lightbox-info">
+                    <p id="lightboxCaption"></p>
+                    <p id="lightboxCounter"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="three-scene" class="section">      
+        <h2 class="section-title">THE 3D Gallery</h2>
+
+        <div class="three-scene-wrapper">
+            <div class="three-scene">
+                <div class="three-container" id="three-container-embedded" aria-label="3D scene"></div>
+                <div id="model-info" class="model-info"><h3>Select a model</h3></div>
+
+                <div class="model-viewer-overlay">
+                    <div id="model-loading-spinner" class="model-loading-spinner" style="display: none;">
+                        <div class="spinner"></div>
+                        <p>Loading model...</p>
+                    </div>
+                    <div class="model-loading-bar">
+                        <div id="model-loading-progress" class="model-loading-progress" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="models-gallery-container" class="models-gallery-section"></div>
+        </div>
+    </section>
+
+
+    <section id="game-gallery" class="section">
+        <h2 class="section-title">Game Development Gallery</h2>
+        <p class="section-subtitle">Trailers, Gameplay Clips & Descriptions</p>
+
+        <div class="game-grid">
+            <div class="game-card">
+                <div class="video-wrap">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EChxh6r7vvk?si=lYgW7ObynWARZRaD" title="Trailer 1" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <h3>Legacy</h3>
+                <p>a 3D adventure game where you play as a heroine entrusted with protecting a sacred stone hidden within an ancient Amazigh village.</p>
+            </div>
+
+            <div class="game-card">
+                <div class="video-wrap">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PW7bDbqu800?si=h3-wIzXxQpBSp5zZ" title="Trailer 2" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <h3>Pop Up!</h3>
+                <p>a 3D rhythm game about three hilarious characters—one blowing gum, one making soap bubbles, and one snoring so loud it lifts them up—battle it out to see who can rise the highest. </p>
+            </div>
+
+            <div class="game-card">
+                <div class="video-wrap">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l-EHCnPnRRI?si=ikI63b8CpfQB8qlV" title="Trailer 3" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <h3>Qart Hadasht: The New City</h3>
+                <p>Ea semi multiplayer VR escape room experience inspired by the history, culture, and mysteries of Carthage.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="contact-content">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>Have a project, an idea, or just want to talk about games? <br>Let's connect.</p>
+            <div class="social-links">
+                <a href="yomnarabeh@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/navyyo" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yomna-rabeh-1440b9257/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                 <a href="#" target="_blank"><i class="fab fa-artstation"></i></a> 
+           </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Designed & Coded by Yomna Rabeh © 2026</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+    <script>
+        // --- Particles.js Initialization ---
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+                "color": { "value": "#00f2fe" },
+                "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" } },
+                "opacity": { "value": 0.5, "random": true, "anim": { "enable": true, "speed": 1, "opacity_min": 0.1, "sync": false } },
+                "size": { "value": 3, "random": true, "anim": { "enable": false } },
+                "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.1, "width": 1 },
+                "move": { "enable": true, "speed": 2, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true },
+                "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 100, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } }
+            },
+            "retina_detect": true
+        });
+
+        // --- Scroll Animation Observer ---
+        const sections = document.querySelectorAll('.section');
+        const options = {
+            root: null, // it is the viewport
+            threshold: 0.2, // 20% of the item is visible
+            rootMargin: "0px"
+        };
+
+        const observer = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    return;
+                }
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            });
+        }, options);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+    </script>
+    <script type="module" src="./index-page1.js"></script>
+
+</body>
+</html>
