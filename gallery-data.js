@@ -1,5 +1,5 @@
 export const designWorks = [
-    /*{ id: 1, category: 'posts', title: 'Celebration of Women\'s Month', image: 'design_images/baby.jpg', description: 'Creative social media post concept' },
+    { id: 1, category: 'posts', title: 'Celebration of Women\'s Month', image: 'design_images/baby.jpg', description: 'Creative social media post concept' },
     { id: 2, category: 'posts', title: 'Celebration of EID al-Fitr', image: 'design_images/baby2.jpg', description: 'Playful post design with bright visuals' },
     { id: 3, category: 'artwork', title: 'Illustration of the Big Bang', image: 'design_images/big bang.png', description: 'Bold expressive artwork' },
     { id: 4, category: 'artwork', title: 'My personal Business Card', image: 'design_images/busines card yomna_v1.png', description: 'Clean business card layout' },
@@ -27,7 +27,7 @@ export const designWorks = [
     { id: 26, category: 'logos', title: 'Sweet Cakes - A Business Logo', image: 'design_images/sweet cakes.png', description: 'Food artwork with soft color palette' },
     { id: 27, category: 'posts', title: 'Recreation of a Bafta poster', image: 'design_images/the show.png', description: 'Bold event design with strong presence' },
     { id: 28, category: 'artwork', title: 'Thor Artwork poster', image: 'design_images/thor_Recovered.jpg', description: 'Fantasy-inspired promotional graphic' },
-    { id: 29, category: 'posts', title: 'Zooland - Poster', image: 'design_images/zooland.jpg', description: 'Playful artwork concept for entertainment' }*/
+    { id: 29, category: 'posts', title: 'Zooland - Poster', image: 'design_images/zooland.jpg', description: 'Playful artwork concept for entertainment' }
 ];
 
 export const modelsList = [
