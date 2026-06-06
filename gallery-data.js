@@ -55,14 +55,14 @@ export const modelsList = [
         model: 'models/ancient tablet.glb',
         category: 'Weapon'
     },
-    /*{
+    {
         id: 'ma3beeeeed',
         title: 'Zaghouan water temple',
         description: 'Zaghouan water temple designed using Blender.',
         thumbnail: 'images/ma3beeeeed.png',
-        model: 'models/ma3beeeeed.glb',
+        model: 'models/maaabed_zaghouan.glb',
         category: 'Environment'
-    },*/
+    },
     {
         id: 'cross vault',
         title: 'cross vault',
